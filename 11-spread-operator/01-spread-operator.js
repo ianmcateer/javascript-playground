@@ -16,3 +16,5 @@ const person = {
 
 const person2 = {...address, ...name}
 console.log(person2)
+
+

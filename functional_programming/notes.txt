@@ -1,0 +1,6 @@
+functional programming is a style
+breking up code into verbs
+object orientated is about nouns
+
+pure functions dont have side effects
+
