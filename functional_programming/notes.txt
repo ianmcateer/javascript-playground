@@ -4,3 +4,8 @@ object orientated is about nouns
 
 pure functions dont have side effects
 
+higher order functions very important
+  they re good for composition- allow us to compose lots of small functions into bigger functions
+  filter is a higher order function 
+
+why learn functional programming?
