@@ -1,3 +1,6 @@
-let a = "hello world"
+const hello = () =>  {
+  console.log('hello')
+  return console.log('test')
+}
 
-console.log(a.length)
+hello()
