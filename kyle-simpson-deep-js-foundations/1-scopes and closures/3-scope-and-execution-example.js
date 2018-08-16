@@ -1,0 +1,17 @@
+// compile first and then execute it 
+var foo = bar
+
+function bar() {
+    var foo = "baz"
+
+    function baz(foo) {
+        foo = "bam"
+        bam = "yay"
+    }
+    baz()
+}
+
+bar()
+foo
+bam
+baz()
