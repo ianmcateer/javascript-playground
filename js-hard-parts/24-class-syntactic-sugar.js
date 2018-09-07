@@ -5,21 +5,21 @@
 // es2015 gave us class syntactic sugar
 
 class User {
-  constructor(name, score){
-    this.name = score
-    this.score = score
+  constructor(name, score) {
+    this.name = score;
+    this.score = score;
   }
-  // this is syntactic sugar for User.prototype.incremement = 
-  incremenet(){
-    this.score++
+  // this is syntactic sugar for User.prototype.incremement =
+  incremenet() {
+    this.score++;
   }
   // User.prototype.login
-  login(){
-    console.log('login')
+  login() {
+    console.log("login");
   }
 }
 
-let user1 = new User('eva', 9)
-user1.increment()
+let user1 = new User("eva", 9);
+user1.increment();
 
 // when we run new User the construcotr is the function that we will be running
