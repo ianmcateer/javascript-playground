@@ -17,4 +17,4 @@ sayHi('Tony')
 // the exeuciton context has closed in its outer variables
 // the variables it would normally have access to anyway
 
-// closures are just a feature taking advantage of
+// closures are just a feature taking advantage of≈
