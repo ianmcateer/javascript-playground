@@ -15,16 +15,43 @@ const orders = [
 //   totalAmount += orders[i].amount
 // }
 
-// reduce is a function on the array object- takes a callback functions
-// it wants an object at the end- starting point of sum - o
-// this will be passed as first argument to the reduce function
-// reduce will recieve element as second argument
-// going to take the sum we reieve - the intitial value and we are going to add the order amount to it 
-// this return value will be passed as the sum in the next iteration
-// and keeps going until we are finished
-var totalAmount = orders.reduce((sum, element) => {
-  console.log(sum, element)
-  return sum + element.amount
+var totalAmount = orders.reduce(function(sum, order){
+  console.log(sum, order)
+  return sum + order.amount
 }, 0)
 
-console.log(totalAmount)
+
+var scores = [89, 76, 47, 95]
+// var initialValue = 0
+// // var reducer = function (accumulator, item) {
+// //   return accumulator + item
+// // }
+// // var total = scores.reduce(reducer, initialValue)
+// // var average = total / scores.length
+
+var total = scores.reduce(function(accumulator, item){
+  return accumulator + sum
+}, 0)
+var average = total / scores.length
+
+//////////////////////////////////////////////////////////////////////////////////
+var votes = [
+  'tacos',
+  'pizza',
+  'pizza',
+  'tacos',
+  'fries',
+  'ice cream',
+  'ice cream',
+  'pizza'
+]
+var initialValue = {}
+var reducer = function(tally, vote) {
+  if (!tally[vote]) {
+    tally[vote] = 1;
+  } else {
+    tally[vote] = tally[vote] + 1;
+  }
+  return tally;
+}
+var result = votes.reduce(reducer, initialValue) // {tacos: 2, pizza: 3, fries: 1, ice cream: 2}

@@ -7,4 +7,6 @@ const objects = [
   { 'a': 4, 'b': 5, 'c': 6 }
 ];
 
-_.filter(objects, _.matches({ 'a': 4, 'c': 6 }));
+// const result = _.filter(objects, _.matches({ 'a': 4, 'c': 6 })); //returns the true
+const result = _.matches(objects, {'a': 4, 'c': 6})
+console.log(result)
