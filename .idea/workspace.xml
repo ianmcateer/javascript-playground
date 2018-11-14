@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ccea8762-b38c-4a3c-9fb5-984b7a5261bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-code-challenges/easy/05-simple-adding.js" beforeDir="false" afterPath="$PROJECT_DIR$/00-code-challenges/easy/05-simple-adding.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-arrays/array.prototype-methods/01-concat.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-arrays/array.prototype-methods/01-concat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lodash/1-_.matches.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lodash/2-_.find.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lodash/3_.get.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lodash/Function/partial.js" beforeDir="false" afterPath="$PROJECT_DIR$/lodash/Function/partial.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,34 +19,35 @@
     <session id="1816216565">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="hs" value="3" />
           <entry key="html" value="22" />
-          <entry key="js" value="18511" />
+          <entry key="js" value="20538" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="22" />
           <entry key="Haskell" value="3" />
-          <entry key="JavaScript" value="18447" />
+          <entry key="JavaScript" value="20474" />
           <entry key="Scratch" value="64" />
         </counts>
       </usages-collector>
@@ -58,7 +55,7 @@
         <counts>
           <entry key="hs" value="1" />
           <entry key="html" value="2" />
-          <entry key="js" value="116" />
+          <entry key="js" value="128" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
@@ -67,19 +64,49 @@
           <entry key="HTML" value="2" />
           <entry key="Haskell" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="114" />
+          <entry key="JavaScript" value="126" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lodash/Object/merge.js">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lodash/Collection/filter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state>
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lodash/Collection/reject.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lodash/Lang/isEqual.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lodash/Lang/isEqual_2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -105,13 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/14-promises/07-promises.js" />
-        <option value="$PROJECT_DIR$/14-promises/08-asyn-await.js" />
-        <option value="$PROJECT_DIR$/14-promises/index.html" />
-        <option value="$PROJECT_DIR$/14-promises/09-promises.js" />
-        <option value="$PROJECT_DIR$/this-keyword/01-this.js" />
-        <option value="$PROJECT_DIR$/14-promises/00-promises.js" />
-        <option value="$PROJECT_DIR$/10-objectorientated/2-protoype.js" />
         <option value="$PROJECT_DIR$/10-objectorientated/3-composition-v-inheritance.js" />
         <option value="$PROJECT_DIR$/10-objectorientated/3-private-class-names.js" />
         <option value="$PROJECT_DIR$/10-objectorientated/04-inhertance-prototype-chain.js" />
@@ -151,11 +171,18 @@
         <option value="$PROJECT_DIR$/lodash/Collection/find.js" />
         <option value="$PROJECT_DIR$/kyle-simpson-deep-js-foundations/1-scopes and closures/7-block-scoping.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" />
-        <option value="$PROJECT_DIR$/test.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js" />
         <option value="$PROJECT_DIR$/lodash/Collection/get.js" />
         <option value="$PROJECT_DIR$/lodash/Object/merge.js" />
         <option value="$PROJECT_DIR$/Currying-functions/01-example.js" />
+        <option value="$PROJECT_DIR$/lodash/Function/partial.js" />
+        <option value="$PROJECT_DIR$/state-immutability/01-example.js" />
+        <option value="$PROJECT_DIR$/lodash/Object/merge_2.js" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/lodash/Collection/filter_2.js" />
+        <option value="$PROJECT_DIR$/lodash/Collection/reject.js" />
+        <option value="$PROJECT_DIR$/lodash/Lang/isEqual.js" />
+        <option value="$PROJECT_DIR$/lodash/Lang/isEqual_2.js" />
       </list>
     </option>
   </component>
@@ -176,8 +203,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
-    <option name="y" value="23" />
+    <option name="y" value="183" />
     <option name="width" value="1280" />
     <option name="height" value="1417" />
   </component>
@@ -188,31 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
-          <expand>
-            <path>
-              <item name="js-playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="js-playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="js-playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="lodash" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,6 +245,61 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
+            <path>
+              <item name="js-playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="js-playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="js-playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lodash" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="js-playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lodash" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Array" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="js-playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lodash" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Collection" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="js-playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lodash" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Function" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="js-playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lodash" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Lang" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="js-playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="lodash" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,31 +322,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.get.js">
-    <configuration name="1-_.matches.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="1-_.matches.js" working-dir="$PROJECT_DIR$/lodash">
-      <method v="2" />
-    </configuration>
-    <configuration name="2-_.find.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="2-_.find.js" working-dir="$PROJECT_DIR$/lodash">
-      <method v="2" />
-    </configuration>
-    <configuration name="21-reduce.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="21-reduce.js" working-dir="$PROJECT_DIR$/functional_programming">
+  <component name="RunManager" selected="Node.js.isEqual_2.js">
+    <configuration name="filter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="filter.js" working-dir="$PROJECT_DIR$/lodash/Collection">
       <method v="2" />
     </configuration>
     <configuration name="get.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="get.js" working-dir="$PROJECT_DIR$/lodash/Collection">
       <method v="2" />
     </configuration>
+    <configuration name="isEqual_2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="isEqual_2.js" working-dir="$PROJECT_DIR$/lodash/Lang">
+      <method v="2" />
+    </configuration>
+    <configuration name="isEqual.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="isEqual.js" working-dir="$PROJECT_DIR$/lodash/Lang">
+      <method v="2" />
+    </configuration>
+    <configuration name="reject.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="reject.js" working-dir="$PROJECT_DIR$/lodash/Collection">
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Node.js.2-_.find.js" />
-      <item itemvalue="Node.js.1-_.matches.js" />
-      <item itemvalue="Node.js.21-reduce.js" />
       <item itemvalue="Node.js.get.js" />
+      <item itemvalue="Node.js.filter.js" />
+      <item itemvalue="Node.js.reject.js" />
+      <item itemvalue="Node.js.isEqual.js" />
+      <item itemvalue="Node.js.isEqual_2.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.isEqual_2.js" />
+        <item itemvalue="Node.js.isEqual.js" />
+        <item itemvalue="Node.js.reject.js" />
+        <item itemvalue="Node.js.filter.js" />
         <item itemvalue="Node.js.get.js" />
-        <item itemvalue="Node.js.21-reduce.js" />
-        <item itemvalue="Node.js.1-_.matches.js" />
-        <item itemvalue="Node.js.2-_.find.js" />
       </list>
     </recent_temporary>
   </component>
@@ -329,11 +390,14 @@
       <workItem from="1540030765467" duration="599000" />
       <workItem from="1540158923085" duration="1903000" />
       <workItem from="1540984388688" duration="263000" />
+      <workItem from="1541027435832" duration="3203000" />
+      <workItem from="1541048214998" duration="6129000" />
+      <workItem from="1541640933304" duration="4837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55074000" />
+    <option name="totallyTimeSpent" value="69243000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,15 +409,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="183" width="1261" height="1257" extended-state="0" />
+    <frame x="0" y="183" width="1280" height="1417" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49751243" visible="true" weight="0.2685484" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49751243" visible="true" weight="0.26449564" />
       <window_info id="Structure" order="1" sideWeight="0.50248754" side_tool="true" weight="0.3429711" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3281114" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2880061" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994778" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,7 +425,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32898173" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27241078" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27241078" />
       <window_info anchor="bottom" id="Quokka" order="11" weight="0.32985204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -401,55 +465,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05-arrays/array.prototype-methods/06-findIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="88" lean-forward="true" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-arrays/array.prototype-methods/10-.join.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-arrays/array.prototype-methods/11-map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-arrays/array.prototype-methods/12-pop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-arrays/array.prototype-methods/13-push.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-arrays/array.prototype-methods/14-reduce.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="78" column="3" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-arrays/array.prototype-methods/16-shift.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-arrays/array.prototype-methods/15-reverse.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -613,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kyle-simpson-deep-js-foundations/1-scopes and closures/19-coercion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -651,20 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lodash/Collection/get.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lodash/Collection/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/douglas-good-parts-js/17-functions.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -675,10 +669,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lodash/Function/partial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state-immutability/01-example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lodash/Object/merge.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state>
           <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lodash/Object/merge_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lodash/Collection/get.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lodash/Collection/filter_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lodash/Collection/filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lodash/Collection/reject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lodash/Lang/isEqual.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lodash/Lang/isEqual_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
