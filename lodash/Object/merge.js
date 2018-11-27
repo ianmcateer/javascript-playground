@@ -1,5 +1,7 @@
 const _ = require('lodash')
 
+// _.merge(object, [sources])
+
 // like assign
 // for each property in source, check if that property is object itself - if it is then go down recursively
 //and try to map each child object properties from source to destination

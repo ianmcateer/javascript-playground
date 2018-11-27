@@ -1,5 +1,5 @@
 // Gets the value at path of object. If the resolved value is undefined, the defaultValue is returned in its place.
-
+//_.get(object, path, [defaultValue])
 const _ = require('lodash')
 
 var user = {
@@ -19,3 +19,6 @@ var user = {
 const result = _.get(user, 'profile.birthDay')
 
 console.log(result, 'result')
+
+
+//---------------------------------------------//
