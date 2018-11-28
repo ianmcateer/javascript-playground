@@ -20,5 +20,30 @@ const result = _.get(user, 'profile.birthDay')
 
 console.log(result, 'result')
 
-
 //---------------------------------------------//
+
+const subconnectionTypes = {
+  PRIMARY: 'primary',
+  SECONDARY: 'secondary',
+};
+
+const connection = {
+  id: "5bfe",
+  subconnections: [
+    {name: 'subcon 1'},
+    {name: 'subcon 2'}
+    ]
+}
+
+const getSubconnection = (connection, type) => {
+  return _.get(
+    connection,
+    type === subconnectionTypes.PRIMARY ? 'subconnections[0]' : "subconnections[1]"
+  )
+}
+
+const primarySub = getSubconnection( connection, subconnectionTypes.PRIMARY );
+
+console.log('primarySub:', primarySub)
+
+

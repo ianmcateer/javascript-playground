@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccea8762-b38c-4a3c-9fb5-984b7a5261bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lodash/Collection/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/lodash/Collection/get.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lodash/Object/merge.js" beforeDir="false" afterPath="$PROJECT_DIR$/lodash/Object/merge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -79,33 +76,45 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="6" />
+          <entry key="js" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="6" />
+          <entry key="JavaScript" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="376" />
+          <entry key="js" value="679" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="376" />
+          <entry key="JavaScript" value="679" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lodash/Object/merge_3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="576">
+              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lodash/Collection/get.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,9 +188,9 @@
         <option value="$PROJECT_DIR$/lodash/Collection/reject.js" />
         <option value="$PROJECT_DIR$/lodash/Lang/isEqual.js" />
         <option value="$PROJECT_DIR$/lodash/Lang/isEqual_2.js" />
-        <option value="$PROJECT_DIR$/lodash/Collection/get.js" />
         <option value="$PROJECT_DIR$/lodash/Object/merge.js" />
         <option value="$PROJECT_DIR$/lodash/Object/merge_3.js" />
+        <option value="$PROJECT_DIR$/lodash/Collection/get.js" />
       </list>
     </option>
   </component>
@@ -202,8 +211,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="345" />
-    <option name="y" value="29" />
+    <option name="x" value="340" />
+    <option name="y" value="61" />
     <option name="width" value="1837" />
     <option name="height" value="1266" />
   </component>
@@ -322,8 +331,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.merge_3.js">
-    <configuration name="filter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="filter.js" working-dir="$PROJECT_DIR$/lodash/Collection">
+  <component name="RunManager" selected="Node.js.get.js">
+    <configuration name="get.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="get.js" working-dir="$PROJECT_DIR$/lodash/Collection">
       <method v="2" />
     </configuration>
     <configuration name="isEqual_2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="isEqual_2.js" working-dir="$PROJECT_DIR$/lodash/Lang">
@@ -339,19 +348,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.filter.js" />
       <item itemvalue="Node.js.reject.js" />
       <item itemvalue="Node.js.isEqual.js" />
       <item itemvalue="Node.js.isEqual_2.js" />
       <item itemvalue="Node.js.merge_3.js" />
+      <item itemvalue="Node.js.get.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.get.js" />
         <item itemvalue="Node.js.merge_3.js" />
         <item itemvalue="Node.js.isEqual_2.js" />
         <item itemvalue="Node.js.isEqual.js" />
         <item itemvalue="Node.js.reject.js" />
-        <item itemvalue="Node.js.filter.js" />
       </list>
     </recent_temporary>
   </component>
@@ -393,12 +402,12 @@
       <workItem from="1541027435832" duration="3203000" />
       <workItem from="1541048214998" duration="6129000" />
       <workItem from="1541640933304" duration="4837000" />
-      <workItem from="1542845022389" duration="3444000" />
+      <workItem from="1542845022389" duration="4735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72687000" />
+    <option name="totallyTimeSpent" value="73978000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,7 +419,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="345" y="29" width="1837" height="1266" extended-state="0" />
+    <frame x="340" y="61" width="1837" height="1266" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49751243" visible="true" weight="0.18337004" />
@@ -716,16 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lodash/Collection/get.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lodash/Object/merge_2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -751,8 +750,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lodash/Object/merge_3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="576">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lodash/Collection/get.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
