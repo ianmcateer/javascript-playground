@@ -27,4 +27,5 @@ const userSettings = {
 const mergedSettings = _.merge({}, defaultSettings, userSettings)
 console.log(mergedSettings)
 
-//if you intend to perform a deep merge of settings with your own default values user _.merge rather than _.assign
+//if you intend to perform a deep merge of settings with your own default values use _.merge rather than _.assign
+// _.assign is a simple one level copy of values from source to destination
