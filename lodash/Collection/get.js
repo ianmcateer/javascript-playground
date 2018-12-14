@@ -43,6 +43,7 @@ const getSubconnection = (connection, type) => {
 }
 
 const primarySub = getSubconnection( connection, subconnectionTypes.PRIMARY );
+const secondarySub = getSubconnection(conection, subconnectionTypes.SECONDARY)
 
 console.log('primarySub:', primarySub)
 

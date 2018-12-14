@@ -1,6 +1,6 @@
 const _ = require("lodash");
 
-// want the subscription that includes the itemId 5c11bb2fe2d172000a29a7a6
+// find the subscription that includes the itemId 5c11bb2fe2d172000a29a7a6
 
 const state = {
   subscriptions: [{
@@ -33,12 +33,13 @@ const getSubscriptions = state => _.get( state, 'subscriptions' );
 // first get the subscriptions array fro the state
 // console.log(getSubscriptions(state))
 
-const getSubscriptionFromConnectionId = (state, connectionId) => {
-  const subscriptions = getSubscriptions(state);
-  return _.filter(subscriptions, sub => _.includes(sub.itemIds, connectionId))
+const getSubscriptionByConnectionId = (state, connectionId) => {
+  const subscriptions = getSubscriptions( state );
+  return _.find( subscriptions, sub =>
+    _.includes( sub.itemIds, connectionId ) );
 }
 
-const sub = getSubscriptionFromConnectionId(state, '5c11bb2fe2d172000a29a7a6')
+const sub = getSubscriptionByConnectionId(state, '5c11bb2fe2d172000a29a7a6')
 console.log(sub)
 
 
@@ -48,6 +49,6 @@ console.log(sub)
 // }
 
 // export const getSubscriptionFromConnectionId = ( state, connectionId ) => {
-//   const subscriptions = getSubscriptions( state );
-//   return _.filter(subscriptions, sub => _.includes(sub.itemIds, connectionId))[0]
-// }
+// //   const subscriptions = getSubscriptions( state );
+// //   return _.filter(subscriptions, sub => _.includes(sub.itemIds, connectionId))[0];
+// // }
